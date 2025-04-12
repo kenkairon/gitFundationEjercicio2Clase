@@ -68,3 +68,7 @@ Educativo y de Aprendizaje Personal
 14. Verificamos el Historial de los todos los commits con autor, fecha, descripción del commits
     ```bash
     git log
+
+15. Para hacer mas comprimidos el historial de todos los commits
+    ```bash
+    git log --oneline
