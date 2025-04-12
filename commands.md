@@ -62,5 +62,9 @@ Educativo y de Aprendizaje Personal
     git commit -m "Creamos el archivo commands.md"
 
 13. sirve para mostrar las diferencias entre archivos en Git, cambios por confirmar, cambios entre commits
-    ```
+    ```bash
     git diff
+
+14. Verificamos el Historial de los todos los commits con autor, fecha, descripción del commits
+    ```bash
+    git log
