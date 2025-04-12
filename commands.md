@@ -43,4 +43,24 @@ Educativo y de Aprendizaje Personal
     ```bash
     git log
 
+9. Creamos otro Archivo commands.md 
+    ```bash
+    touch commands.md
 
+10. Verificamos el estado de ese archivo
+    ```bash
+    git status
+
+11. Agregamos el archivo unstage
+    ```bash
+    git add --all  o
+    git add -A     o
+    git add .
+
+12. Generamos una confirmación o commit para el archivo commands.md
+    ```bash
+    git commit -m "Creamos el archivo commands.md"
+
+13. sirve para mostrar las diferencias entre archivos en Git, cambios por confirmar, cambios entre commits
+    ```
+    git diff
