@@ -120,3 +120,38 @@ Puedes usar el hash de un commit para ir temporalmente a ese punto del tiempo (m
 26. Poder Modificar la descripción de un commit
     ```bash
     git commit --amend -m "Nuevos cambios en el index.html"
+
+27. ¿Qué es Git Flow?
+    ```bash
+    Git Flow define una serie de ramas principales y ramas de soporte para que el desarrollo sea organizado, predecible y fácil de mantener.
+    🔁 Ramas principales
+    main (o master):
+    Contiene el código en producción.
+    Siempre debe estar estable y listo para desplegar.
+    develop:
+    Contiene el código que está en desarrollo activo.
+    Aquí se integran las nuevas funcionalidades antes de pasarlas a main.
+
+28. Ramas de soporte
+    ```bash
+    feature/nombre:
+    Se crean a partir de develop.
+    Sirven para trabajar en nuevas funcionalidades.
+    Al terminar, se integran a develop.
+    git checkout -b feature/login develop
+
+    release/nombre:
+    Se crean a partir de develop cuando se quiere preparar una nueva versión.
+    Aquí se hacen pruebas, correcciones menores y preparación del despliegue.
+    Se fusionan tanto en main como en develop.
+    git checkout -b release/v1.0 develop
+
+    hotfix/nombre:
+    Se crean a partir de main para arreglar errores críticos en producción.
+    Luego se integran tanto en main como en develop.
+    git checkout -b hotfix/corregir-login main
+
+29. Creamos Ramas
+    ```bash
+    git checkout cevasquez-super-rama
+    
