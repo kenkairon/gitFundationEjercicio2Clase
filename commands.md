@@ -97,3 +97,22 @@ Educativo y de Aprendizaje Personal
 21. Cuando ya no necesitás ninguno de los cambios que habías guardado temporalmente con git stash, y querés limpiar la pila para evitar confusión o liberar espacio., Cuidado que es un comando irreversible
     ```bash
     git stash clear
+
+22. Volver a un commit o revisarlo
+Puedes usar el hash de un commit para ir temporalmente a ese punto del tiempo (modo "detached HEAD")
+    ```bash
+    git checkout 96ecfe2
+
+23. Para cambiar de rama sirve le git checkout 
+    ```bash
+   git checkout nombre-de-la-rama
+   git checkout main 
+
+24. Crear y Cambiar una nueva rama 
+    ```bash
+    git checkout -b nueva-rama
+
+25. Solo Crear una Rama 
+    ```bash
+    git branch nueva-rama o 
+    git checkout nueva-rama
