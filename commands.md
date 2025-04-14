@@ -72,3 +72,28 @@ Educativo y de Aprendizaje Personal
 15. Para hacer mas comprimidos el historial de todos los commits
     ```bash
     git log --oneline
+
+16. Para Mostrar los commit y la acciones dentro de ellos específicos 
+    ```bash
+    git log --oneline
+    git show 264e719
+
+17. Para saber que esta en staged
+    ```bash
+    git diff --staged
+
+18. Guarda los cambios no confirmados (sin commit) en una "pila" (stash) y restaura tu área de trabajo al último    commit limpio.
+    ```bash
+    git stash
+
+19. Verificar todas las pilas o stash
+    ```bash
+    git stash list
+
+20. Para recuperar los cambios guardados 
+    ```bash
+    git stash apply stash@{0}
+
+21. Cuando ya no necesitás ninguno de los cambios que habías guardado temporalmente con git stash, y querés limpiar la pila para evitar confusión o liberar espacio., Cuidado que es un comando irreversible
+    ```bash
+    git stash clear
