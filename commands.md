@@ -154,4 +154,13 @@ Puedes usar el hash de un commit para ir temporalmente a ese punto del tiempo (m
 29. Creamos Ramas
     ```bash
     git checkout cevasquez-super-rama
-    
+
+30. Se creo la Rama home y main es la principal, ingresamos a main y fusionamos en home
+    ```bash
+    git checkout main
+    git merge home
+
+31. Eliminamos ramas 
+    ``` 
+    git branch -D develop
+    git branch -D home
