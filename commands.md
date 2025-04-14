@@ -116,3 +116,7 @@ Puedes usar el hash de un commit para ir temporalmente a ese punto del tiempo (m
     ```bash
     git branch nueva-rama o 
     git checkout nueva-rama
+
+26. Poder Modificar la descripción de un commit
+    ```bash
+    git commit --amend -m "Nuevos cambios en el index.html"
