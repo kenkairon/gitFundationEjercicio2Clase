@@ -105,8 +105,8 @@ Puedes usar el hash de un commit para ir temporalmente a ese punto del tiempo (m
 
 23. Para cambiar de rama sirve le git checkout 
     ```bash
-   git checkout nombre-de-la-rama
-   git checkout main 
+    git checkout nombre-de-la-rama
+    git checkout main 
 
 24. Crear y Cambiar una nueva rama 
     ```bash
